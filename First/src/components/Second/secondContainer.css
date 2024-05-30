@@ -1,0 +1,13 @@
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-left: -4rem;
+}
