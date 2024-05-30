@@ -15,5 +15,6 @@ body{
 :root{
 --background-color: rgb(225, 224, 224);
 --text-color: rgb(149, 148, 148);
+--hover-color: rgb(13, 158, 255);
 
 }

@@ -10,13 +10,13 @@
 
 h1{
     padding-top: 0;
-    padding-left: 4rem;
+    padding-left: 3rem;
 }
 
 p{
     padding-top: 1.3rem;
     padding-left: 5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Lato", sans-serif;
 }
 
@@ -41,4 +41,10 @@ small{
     font-size: 1rem;
     padding-left: 4.4rem;
     margin-bottom: 3rem;
+}
+
+.third:hover{
+    border: 2px solid var(--hover-color);
+    transition: 1s ease-out;
+    transform: scale(1.1);
 }

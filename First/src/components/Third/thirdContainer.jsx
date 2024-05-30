@@ -1,14 +1,13 @@
 // ThirdContainer.jsx
 import React from 'react';
-import { IoMdSunny } from "react-icons/io";
 import './thirdContainer.css';
 
-const ThirdContainer = ({ day, date, time, temperature, weather }) => {
+const ThirdContainer = ({ day, date, time, temperature, weather, icon }) => {
   return (
     <div className="third">
       <h1>{day}</h1>
       <p>{date}, {time}</p>
-      <IoMdSunny className='sunny' />
+      {icon}
       <br />
       <br />
       <span>{temperature} °F</span>
