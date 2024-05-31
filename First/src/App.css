@@ -3,3 +3,17 @@
     gap: 3rem;
 }
 
+@media screen and (max-width:1024px){
+    .app{
+    margin-left: -9rem;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .app{
+        flex-wrap: wrap;
+        row-gap: 3rem;
+    }
+
+}

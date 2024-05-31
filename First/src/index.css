@@ -5,16 +5,25 @@
 }
 
 body{
-  height: 86vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  background: linear-gradient(purple, yellow);
   align-items: center;
+  /* width: auto; */
 }
 
 
 :root{
---background-color: rgb(225, 224, 224);
+--background-color: rgb(206, 199, 199);
 --text-color: rgb(149, 148, 148);
 --hover-color: rgb(13, 158, 255);
+--second--text-color: #000000;
+}
 
+
+@media screen and (max-width:768px){
+  body{
+    height: 140vh;
+  };
 }

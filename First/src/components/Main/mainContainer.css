@@ -2,10 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 27vh;
+    height: 36vh;
     width: 90vw;
     background: var(--background-color);
     font-size: 8rem;
     font-family: "Lato", sans-serif;
     font-weight: 200;
+    border-radius: 100%;
   }
+
+ @media screen and (max-width:1024px){
+  .main{
+    font-size: 6rem;
+    font-weight: 700;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+ }
+
+ @media screen and (max-width:768px){
+  .main{
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+ }

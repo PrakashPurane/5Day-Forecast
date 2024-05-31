@@ -5,7 +5,7 @@ const secondContainer = () => {
   return (
     <>
     <div className="second">
-    <p>New York, US</p>
+    <p className='second-para'>New York, US</p>
     </div>
     </>
   )
