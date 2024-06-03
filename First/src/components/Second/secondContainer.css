@@ -17,3 +17,20 @@
         margin-left: 0;
     }
 }
+
+
+
+@media screen and (max-width:768px){
+    .second{
+        margin-top: 3rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width:425px){
+    .second{
+        margin-left: 1rem;
+    }
+}

@@ -23,6 +23,19 @@
  @media screen and (max-width:768px){
   .main{
     font-size: 4rem;
-    margin-left: 1rem;
+    margin-left: 3rem;  
+    margin-top: -20rem;
   }
  }
+
+
+  @media screen and (max-width:425px){
+  .main{
+    font-size: 2rem;
+    width: 70%;
+    height: 15vh;
+    margin-top: -7rem;
+    margin-left: 5rem;
+  }
+    
+} 

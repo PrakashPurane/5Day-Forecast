@@ -111,13 +111,14 @@ small {
 
 @media screen and (max-width:768px){
     .third{
-        left: 10rem;
+        left: 9rem;
         margin-right: 11rem;
         display: flex;
         flex-wrap: wrap;
         width: 90%;
         scroll-behavior: smooth;
-        gap: 4px;
+        gap: 11px;
+        /* overflow: hidden; */
     }
     h1{
         display: flex;
@@ -145,4 +146,11 @@ small {
 }
 
 
+/* @media screen and (max-width:625px){
+    .third{
+        width: 50%;
+        left: 16rem;
+    }
+    
+} */
 

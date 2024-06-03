@@ -1,19 +1,25 @@
-.app{
-    display: flex;
-    gap: 3rem;
+.app {
+  display: flex;
+  gap: 3rem;
 }
 
-@media screen and (max-width:1024px){
-    .app{
-    margin-left: -9rem;
-    }
-    
+@media screen and (max-width: 1024px) {
+  .app {
+    margin-left: -5rem;
+  }
 }
 
-@media screen and (max-width:768px){
-    .app{
-        flex-wrap: wrap;
-        row-gap: 3rem;
-    }
+@media screen and (max-width: 768px) {
+  .app {
+    /* position: absolute; */
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    height: 47vh;
+  }
+}
 
+@media screen and (max-width: 425px) {
+  .app {
+    height: 98vh;
+  }
 }

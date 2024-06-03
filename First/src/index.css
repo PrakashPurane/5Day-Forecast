@@ -22,8 +22,23 @@ body{
 }
 
 
-@media screen and (max-width:768px){
+ @media screen and (max-width:768px){
   body{
-    height: 140vh;
+    min-height: 144vh;
+   
   };
-}
+} 
+
+/* @media screen and (max-width:625px){
+  body{
+    max-height: 120vh;
+  }
+    
+} */
+
+
+/* @media screen and (max-width:661px){
+  body{
+    height: 200vh;
+  };
+} */
